@@ -1,5 +1,5 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family:cursive;
     background-image:url(assets/hoja.jpg);
     background-size: cover;
     display: flex;
@@ -24,26 +24,28 @@ body {
 }
 
 input {
+    font-family: cursive;
     flex: 1;
     padding: 10px;
-    font-size: 16px;
-    border: 1px solid #ccc;
+    font-size: 13px;
+    border: 1px solid grey;
     border-radius: 4px;
 }
 
 button {
+    font-family: cursive;
     margin-left: 10px;
     padding: 10px;
     font-size: 16px;
     border: none;
-    background-color: #28a745;
+    background-color: green;
     color: white;
     border-radius: 4px;
     cursor: pointer;
 }
 
 button:hover {
-    background-color: #218838;
+    background-color: green;
 }
 
 ul {
@@ -61,7 +63,7 @@ li {
 
 li.completed {
     text-decoration: line-through;
-    color: #888;
+    color: grey;
 }
 
 li button {
@@ -73,19 +75,19 @@ li button {
 }
 
 li button.complete {
-    background-color: #007bff;
+    background-color: blue;
     color: white;
 }
 
 li button.complete:hover {
-    background-color: #0056b3;
+    background-color: blue;
 }
 
 li button.delete {
-    background-color: #dc3545;
+    background-color: red;
     color: white;
 }
 
 li button.delete:hover {
-    background-color: #c82333;
+    background-color: red;
 }

@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', function() {
     var taskInput = document.getElementById('taskInput');
-    var addTaskButton = document.getElementById('addTaskButton');
+    var BotonAgregar = document.getElementById('addTaskButton');
     var taskList = document.getElementById('taskList');
 
     addTaskButton.addEventListener('click', function() {
