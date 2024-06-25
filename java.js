@@ -3,10 +3,14 @@ document.addEventListener('DOMContentLoaded', function() {
     var BotonAgregar = document.getElementById('addTaskButton');
     var taskList = document.getElementById('taskList');
 
-    addTaskButton.addEventListener('click', function() {
+    BotonAgregar.addEventListener('click', function() {
         var taskText = taskInput.value.trim();
         if (taskText !== '') {
             var listItem = document.createElement('li');
+            /*<li>
+            <span>tarea</span>
+            
+            </li>*/
 
             var taskSpan = document.createElement('span');
             taskSpan.textContent = taskText;

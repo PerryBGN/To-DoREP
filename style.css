@@ -19,6 +19,8 @@ body {
 
 .inpCont {
     display: flex;
+    flex-grow: 1;
+    flex-basis: auto;
     justify-content: space-between;
     margin-bottom: 20px;
 }
